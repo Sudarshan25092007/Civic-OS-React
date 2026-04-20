@@ -1,4 +1,4 @@
-# 🏙️ CIIC REPLICA (Civic Operating System)
+# 🏙️ CIVIC REPLICA (Civic Operating System)
 
 ## 🧠 Problem Statement
 **The Problem:** Urban infrastructure issues (potholes, garbage, broken streetlights) often go unreported due to bureaucratic friction. Citizens feel disconnected from municipal authorities, and officials lack real-time, aggregated data to prioritize repairs.
