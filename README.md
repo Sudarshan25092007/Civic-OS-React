@@ -1,16 +1,39 @@
-# React + Vite
+# 🏙️ CIIC REPLICA (Civic Operating System)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 🧠 Problem Statement
+**The Problem:** Urban infrastructure issues (potholes, garbage, broken streetlights) often go unreported due to bureaucratic friction. Citizens feel disconnected from municipal authorities, and officials lack real-time, aggregated data to prioritize repairs.
+**The Solution:** CIIC REPLICA is a hyper-accessible, real-time "Civic Operating System" where citizens can instantly pin issues on a map, upload photographic evidence, and upvote community priorities. 
+**Why it matters:** It bridges the gap between citizens and municipal authorities using absolute transparency, crowdsourcing, and real-time mapping data.
 
-Currently, two official plugins are available:
+## ✨ Core Features
+1. **Real-time Civic Map:** Visualizes all active incidents across the city using custom glowing severity markers.
+2. **Community Heat (Upvotes):** Citizens can upvote issues they care about most, dynamically sorting priorities for officials.
+3. **Role-Based Access Control:** Standard citizens can report and upvote, while Root Admins can resolve issues and clear the map.
+4. **Bento Dashboard Stats:** Automatically aggregates total reports, resolution rate, and community heat into a sleek dashboard.
+5. **Glassmorphic UI:** Implemented a stunning, modern Cyber-Urban aesthetic utilizing `framer-motion` for fluid micro-interactions.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🛠️ Tech Stack
+- **Frontend Framework:** React 19 (via Vite)
+- **Styling:** Tailwind CSS V4 + Vanilla CSS (Custom Keyframes)
+- **State Management:** React Context API + Custom Hooks
+- **Map Engine:** React-Leaflet (`leaflet`)
+- **Backend (BaaS):** Firebase (Authentication + Firestore Database)
+- **Automated Testing:** Vitest & React Testing Library (CI via GitHub Actions)
 
-## React Compiler
+## 🚀 Setup Instructions
+1. Clone the repository:
+   ```bash
+   git clone <your-github-repo-url>
+   cd "CIIC REPLICA"
+   ```
+2. Install dependencies:
+   ```bash
+   npm install
+   ```
+3. Run the development server:
+   ```bash
+   npm run dev
+   ```
+4. Access the app locally at `http://localhost:5173`.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+*(Note: Ensure your Firebase environment is configured or linked via Firebase CLI if you intend to deploy the security rules).*
