@@ -2,7 +2,7 @@
 
 ## 🧠 Problem Statement
 **The Problem:** Urban infrastructure issues (potholes, garbage, broken streetlights) often go unreported due to bureaucratic friction. Citizens feel disconnected from municipal authorities, and officials lack real-time, aggregated data to prioritize repairs.
-**The Solution:** CIIC REPLICA is a hyper-accessible, real-time "Civic Operating System" where citizens can instantly pin issues on a map, upload photographic evidence, and upvote community priorities. 
+**The Solution:** CIVIC REPLICA is a hyper-accessible, real-time "Civic Operating System" where citizens can instantly pin issues on a map, upload photographic evidence, and upvote community priorities. 
 **Why it matters:** It bridges the gap between citizens and municipal authorities using absolute transparency, crowdsourcing, and real-time mapping data.
 
 ## ✨ Core Features
