@@ -3,12 +3,12 @@ import { getAuth } from "firebase/auth";
 import { getFirestore } from "firebase/firestore";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyA2EcjDus0vbJD-Zs8Je9JQJnYwCyd8KpA",
-  authDomain: "civic-reporter-2007.firebaseapp.com",
-  projectId: "civic-reporter-2007",
-  storageBucket: "civic-reporter-2007.appspot.com",
-  messagingSenderId: "663896917066",
-  appId: "1:663896917066:web:1f5c381ea68dd5173512b3"
+  apiKey: import.meta.env.VITE_FIREBASE_API_KEY,
+  authDomain: import.meta.env.VITE_FIREBASE_AUTH_DOMAIN,
+  projectId: import.meta.env.VITE_FIREBASE_PROJECT_ID,
+  storageBucket: import.meta.env.VITE_FIREBASE_STORAGE_BUCKET,
+  messagingSenderId: import.meta.env.VITE_FIREBASE_MESSAGING_SENDER_ID,
+  appId: import.meta.env.VITE_FIREBASE_APP_ID
 };
 
 const app = initializeApp(firebaseConfig);
